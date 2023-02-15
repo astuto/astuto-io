@@ -50,8 +50,9 @@ function Header() {
           {/* Site branding */}
           <div className="shrink-0 mr-4">
             {/* Logo */}
-            <Link to="/" className="block" aria-label="Astuto">
+            <Link to="/" className="flex" aria-label="Astuto">
               <img src={Logo} width={48} height={48} />
+              <span className="text-3xl font-bold self-center ml-4">Astuto</span>
             </Link>
           </div>
 

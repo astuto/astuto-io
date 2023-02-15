@@ -1,12 +1,8 @@
-import React, { useState } from 'react';
-import Modal from '../utils/Modal';
+import React from 'react';
 
 import HeroImage from '../images/hero-image.png';
 
 function HeroHome() {
-
-  const [videoModalOpen, setVideoModalOpen] = useState(false);
-
   return (
     <section className="relative">
 
@@ -50,7 +46,7 @@ function HeroHome() {
                   </a>
                 </div>
                 <div className="flex">
-                  <a className="text-center w-full mt-4" href="#">
+                  <a className="text-center w-full mt-4 sm:self-center sm:mt-0 sm:ml-4" href="#">
                     Learn more
                   </a>
                 </div>
