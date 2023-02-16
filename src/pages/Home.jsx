@@ -22,9 +22,6 @@ function Home() {
         {/*  Page sections */}
         <HeroHome />
         <FeedbackCycleHome />
-        <FeaturesBlocks />
-        <FeaturesWorld />
-        <News />
         <Cta />
 
       </main>
