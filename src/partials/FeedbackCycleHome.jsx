@@ -40,7 +40,7 @@ function FeedbackCycleHome() {
           <div className="md:grid md:grid-cols-12 md:gap-6">
 
             {/* Content */}
-            <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
+            <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 md:mt-6" data-aos="fade-right">
 
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
@@ -96,7 +96,7 @@ function FeedbackCycleHome() {
             </div>
 
             {/* Tabs items */}
-            <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="zoom-y-out" ref={tabs}>
+            <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 mb-8 md:mb-0 md:order-1" data-aos="zoom-y-out" ref={tabs}>
               <div className="relative flex flex-col text-center lg:text-right">
                 {/* Item 1 */}
                 <Transition
@@ -110,7 +110,7 @@ function FeedbackCycleHome() {
                   leaveStart="opacity-100 translate-y-0"
                   leaveEnd="opacity-0 -translate-y-16"
                 >
-                  <div className="relative inline-flex flex-col">
+                  <div className="w-full relative inline-flex flex-col">
                     <img className="md:max-w-none mx-auto rounded" src={FeedbackCycleElement01} width="500" height="375" alt="Feedback cycle part 1" />
 
                     {/* <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement01} width="500" height="147" alt="Element 01" style={{ top: '22%' }} /> */}
@@ -128,7 +128,7 @@ function FeedbackCycleHome() {
                   leaveStart="opacity-100 translate-y-0"
                   leaveEnd="opacity-0 -translate-y-16"
                 >
-                  <div className="relative inline-flex flex-col">
+                  <div className="w-full relative inline-flex flex-col">
                     <img className="md:max-w-none mx-auto rounded" src={FeedbackCycleElement02} width="500" height="375" alt="Feedback cycle part 2" />
                   </div>
                 </Transition>
@@ -144,7 +144,7 @@ function FeedbackCycleHome() {
                   leaveStart="opacity-100 translate-y-0"
                   leaveEnd="opacity-0 -translate-y-16"
                 >
-                  <div className="relative inline-flex flex-col">
+                  <div className="w-full relative inline-flex flex-col">
                     <img className="md:max-w-none mx-auto rounded" src={FeedbackCycleElement03} width="500" height="375" alt="Feedback cycle part 3" />
                   </div>
                 </Transition>
