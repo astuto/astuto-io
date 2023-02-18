@@ -63,7 +63,7 @@ function Header() {
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
                 <Link to={{hash: "#features"}} className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">
-                  How It Works
+                  Features
                 </Link>
               </li>
               <li>
@@ -133,7 +133,7 @@ function Header() {
                 <ul className="px-5 py-2">
                   <li>
                     <Link to="#features" className="flex text-gray-600 hover:text-gray-900 py-2">
-                      How It Works
+                      Features
                     </Link>
                   </li>
                   <li>

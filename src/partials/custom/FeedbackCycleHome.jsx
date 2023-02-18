@@ -22,7 +22,7 @@ function FeedbackCycleHome() {
   }, [tab])
 
   return (
-    <section className="relative">
+    <section id="features" className="relative">
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div className="absolute inset-0 bg-gray-100 pointer-events-none mb-16" aria-hidden="true"></div>
@@ -32,7 +32,7 @@ function FeedbackCycleHome() {
         <div className="pt-12 md:pt-20">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-8">
             <h1 className="h2 mb-4">The feedback cycle</h1>
           </div>
 

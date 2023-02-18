@@ -12,12 +12,12 @@ function PricingTables() {
   });
 
   return (
-    <section className="bg-gradient-to-b from-white to-gray-100">
+    <section id="pricing" className="bg-gradient-to-b from-white to-gray-100">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-12 pb-12">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-4">
+          <div className="max-w-3xl mx-auto text-center mb-8">
             <h1 className="h1" data-aos="zoom-y-out">
               Pricing
             </h1>
