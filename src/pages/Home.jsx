@@ -4,6 +4,7 @@ import Header from '../partials/Header';
 import HeroHome from '../partials/HeroHome';
 import FeedbackCycleHome from '../partials/custom/FeedbackCycleHome';
 import FeatureExplanationHome from '../partials/custom/FeatureExplanationHome';
+import PricingTables from '../partials/PricingTables';
 import Cta from '../partials/Cta';
 import Footer from '../partials/Footer';
 
@@ -45,6 +46,8 @@ function Home() {
           image={FeatureExplanationHome3}
           invert
         />
+
+        <PricingTables />
 
         <Cta />
 

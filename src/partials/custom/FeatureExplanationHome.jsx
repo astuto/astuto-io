@@ -8,7 +8,7 @@ function FeatureExplanationHome({ title, description, image, invert }) {
   const rightImageStyle = 'md:col-start-6 md:col-end-13';
 
   return (
-    <section className="relative my-32">
+    <section className="relative my-16">
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       {/* Background color */}
