@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Transition from '../utils/Transition';
 
-import Logo from '../images/logo.png';
+import Logo from '../images/custom/logo.png';
 
 function Header() {
 

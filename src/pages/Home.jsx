@@ -2,12 +2,14 @@ import React from 'react';
 
 import Header from '../partials/Header';
 import HeroHome from '../partials/HeroHome';
-import FeedbackCycleHome from '../partials/FeedbackCycleHome';
-import FeaturesBlocks from '../partials/FeaturesBlocks';
-import FeaturesWorld from '../partials/FeaturesWorld';
-import News from '../partials/News';
+import FeedbackCycleHome from '../partials/custom/FeedbackCycleHome';
+import FeatureExplanationHome from '../partials/custom/FeatureExplanationHome';
 import Cta from '../partials/Cta';
 import Footer from '../partials/Footer';
+
+import FeatureExplanationHome1 from '../images/custom/feature-explanation-home-1.png';
+import FeatureExplanationHome2 from '../images/custom/feature-explanation-home-2.png';
+import FeatureExplanationHome3 from '../images/custom/feature-explanation-home-3.png';
 
 function Home() {
   return (
@@ -21,7 +23,28 @@ function Home() {
 
         {/*  Page sections */}
         <HeroHome />
+
         <FeedbackCycleHome />
+
+        <FeatureExplanationHome
+          title='Collect feedback from your users'
+          description='It is very easy for your users to post feedback on your board. They can log in with their email or you can set up any OAuth provider you want. Anonymous voting coming soon!'
+          image={FeatureExplanationHome1}
+        />
+
+        <FeatureExplanationHome
+          title='Share updates with your users'
+          description="Publish post updates to let users know what you're working on."
+          image={FeatureExplanationHome2}
+          invert
+        />
+
+        <FeatureExplanationHome
+          title='Customize to fit your needs'
+          description="Customize boards, statuses and everything else to match your organization structure."
+          image={FeatureExplanationHome3}
+        />
+
         <Cta />
 
       </main>

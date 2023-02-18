@@ -1,9 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
-import Transition from '../utils/Transition';
+import Transition from '../../utils/Transition';
 
-import FeedbackCycleElement01 from '../images/feedback-cycle-1.png';
-import FeedbackCycleElement02 from '../images/feedback-cycle-2.png';
-import FeedbackCycleElement03 from '../images/feedback-cycle-3.png';
+import FeedbackCycleElement01 from '../../images/custom/feedback-cycle-1.png';
+import FeedbackCycleElement02 from '../../images/custom/feedback-cycle-2.png';
+import FeedbackCycleElement03 from '../../images/custom/feedback-cycle-3.png';
 
 function FeedbackCycleHome() {
   const [tab, setTab] = useState(1);
