@@ -1,4 +1,5 @@
 import React from 'react';
+import { HashLink } from 'react-router-hash-link';
 
 import HeroImage from '../images/custom/hero-image.png';
 
@@ -48,9 +49,9 @@ function HeroHome() {
                   </a>
                 </div>
                 <div className="flex">
-                  <a className="text-center w-full mt-4 sm:self-center sm:mt-0 sm:ml-4" href="#">
+                  <HashLink to="#features" className="text-center w-full mt-4 sm:self-center sm:mt-0 sm:ml-4">
                     Learn more
-                  </a>
+                  </HashLink>
                 </div>
               </div>
             </div>
