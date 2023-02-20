@@ -12,9 +12,14 @@ function PricingTables() {
   });
 
   return (
-    <section id="pricing" className="bg-gradient-to-b from-white to-gray-100">
+    <section id="pricing" className="relative pt-8">
+
+      {/* Section background (needs .relative class on parent and next sibling elements) */}
+      <div className="absolute inset-0 bg-gray-100 pointer-events-none mb-16" aria-hidden="true"></div>
+      <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-200 transform -translate-y-1/2"></div>
+
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="pt-12 pb-12">
+        <div className="pt-12 md:pt-20 pb-12">
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center mb-8">
@@ -53,7 +58,7 @@ function PricingTables() {
               </div>
             </div>
 
-            <div className="max-w-xs mx-auto grid gap-8 grid-cols-1 xl:gap-6 items-start">
+            <div className="max-w-sm mx-auto grid gap-8 grid-cols-1 xl:gap-6 items-start">
 
               {/* Pricing table 1 */}
               <div className="relative flex flex-col h-full py-5 px-6 rounded bg-white shadow-xl" data-aos="zoom-y-out" data-aos-delay="450">
