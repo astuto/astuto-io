@@ -1,8 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import Transition from '../utils/Transition';
 
-import Logo from '../images/logo.png';
+import Logo from '../images/custom/logo.png';
 
 function Header() {
 
@@ -50,10 +51,10 @@ function Header() {
           {/* Site branding */}
           <div className="shrink-0 mr-4">
             {/* Logo */}
-            <Link to="/" className="flex" aria-label="Astuto">
+            <HashLink to="/#" className="flex" aria-label="Astuto">
               <img src={Logo} width={48} height={48} />
               <span className="text-3xl font-bold self-center ml-4">Astuto</span>
-            </Link>
+            </HashLink>
           </div>
 
           {/* Desktop navigation */}
@@ -62,14 +63,14 @@ function Header() {
             {/* Desktop menu links */}
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
-                <Link to={{hash: "#features"}} className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">
+                <HashLink to="/#features" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">
                   Features
-                </Link>
+                </HashLink>
               </li>
               <li>
-                <Link to="#pricing" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">
+                <HashLink to="/#pricing" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">
                   Pricing
-                </Link>
+                </HashLink>
               </li>
               <li>
                 <Link to="/docs" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">
@@ -132,17 +133,17 @@ function Header() {
               >
                 <ul className="px-5 py-2">
                   <li>
-                    <Link to="#features" className="flex text-gray-600 hover:text-gray-900 py-2">
+                    <HashLink to="/#features" onClick={() => setMobileNavOpen(false)} className="flex text-gray-600 hover:text-gray-900 py-2">
                       Features
-                    </Link>
+                    </HashLink>
                   </li>
                   <li>
-                    <Link to="#pricing" className="flex text-gray-600 hover:text-gray-900 py-2">
+                    <HashLink to="/#pricing" onClick={() => setMobileNavOpen(false)} className="flex text-gray-600 hover:text-gray-900 py-2">
                       Pricing
-                    </Link>
+                    </HashLink>
                   </li>
                   <li>
-                    <Link to="/docs" className="flex text-gray-600 hover:text-gray-900 py-2">
+                    <Link to="/docs" onClick={() => setMobileNavOpen(false)} className="flex text-gray-600 hover:text-gray-900 py-2">
                       Documentation
                     </Link>
                   </li>
