@@ -33,7 +33,7 @@ function FeedbackCycleHome() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-8">
-            <h1 className="h2 mb-4">The feedback cycle</h1>
+            <h1 className="h2 mb-4">How it works</h1>
           </div>
 
           {/* Section content */}

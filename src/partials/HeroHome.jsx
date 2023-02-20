@@ -31,7 +31,7 @@ function HeroHome() {
 
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
-            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">
+            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-8" data-aos="zoom-y-out">
               An open source
               <br />
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">

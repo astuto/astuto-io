@@ -133,17 +133,17 @@ function Header() {
               >
                 <ul className="px-5 py-2">
                   <li>
-                    <HashLink to="/#features" className="flex text-gray-600 hover:text-gray-900 py-2">
+                    <HashLink to="/#features" onClick={() => setMobileNavOpen(false)} className="flex text-gray-600 hover:text-gray-900 py-2">
                       Features
                     </HashLink>
                   </li>
                   <li>
-                    <HashLink to="/#pricing" className="flex text-gray-600 hover:text-gray-900 py-2">
+                    <HashLink to="/#pricing" onClick={() => setMobileNavOpen(false)} className="flex text-gray-600 hover:text-gray-900 py-2">
                       Pricing
                     </HashLink>
                   </li>
                   <li>
-                    <Link to="/docs" className="flex text-gray-600 hover:text-gray-900 py-2">
+                    <Link to="/docs" onClick={() => setMobileNavOpen(false)} className="flex text-gray-600 hover:text-gray-900 py-2">
                       Documentation
                     </Link>
                   </li>
