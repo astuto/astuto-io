@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
-import Logo from '../images/custom/logo.png';
+import Logo from '../images/logo.png';
 
 function Footer() {
   return (
@@ -16,25 +17,20 @@ function Footer() {
             <h6 className="text-gray-800 font-medium mb-2">Product</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <Link to="/" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
+                <HashLink to="/#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
                   Home
-                </Link>
+                </HashLink>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
-                  The Feedback Cycle
-                </Link>
-              </li>
-              <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
+                <HashLink to="/#features" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
                   Features
-                </Link>
+                </HashLink>
               </li>
-              <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
+              {/* <li className="mb-2">
+                <HashLink to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
                   Pricing
-                </Link>
-              </li>                         
+                </HashLink>
+              </li> */}
             </ul>
           </div>
 
@@ -43,7 +39,7 @@ function Footer() {
             <h6 className="text-gray-800 font-medium mb-2">Resources</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
+                <Link to="https://docs.astuto.io" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
                   Documentation
                 </Link>
               </li>
@@ -86,12 +82,14 @@ function Footer() {
           <div className="xs:col-span-6 sm:col-span-6 md:col-span-3">
             <div className="mb-2">
               {/* Logo */}
-              <Link to="/" className="inline-block" aria-label="Cruip">
+              <HashLink to="/#" className="inline-block" aria-label="Cruip">
                 <img src={Logo} width={32} height={32} />
-              </Link>
+              </HashLink>
 
               {/* Copyrights note */}
-              <div className="text-sm text-gray-600 mr-4">&copy; 2023 Astuto</div>
+              <div className="text-sm text-gray-600 mr-4">
+                &copy; {new Date().getFullYear()} Astuto
+              </div>
             </div>
           </div>      
         </div>
