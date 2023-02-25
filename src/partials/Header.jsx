@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import Transition from '../utils/Transition';
 
-import Logo from '../images/custom/logo.png';
+import Logo from '../images/logo.png';
 
 function Header() {
 

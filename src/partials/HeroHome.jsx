@@ -1,7 +1,7 @@
 import React from 'react';
 import { HashLink } from 'react-router-hash-link';
 
-import HeroImage from '../images/custom/hero-image.png';
+import HeroImage from '../images/hero-image.png';
 
 function HeroHome() {
   return (

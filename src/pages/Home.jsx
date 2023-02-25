@@ -8,9 +8,9 @@ import PricingTables from '../partials/PricingTables';
 import Cta from '../partials/Cta';
 import Footer from '../partials/Footer';
 
-import FeatureExplanationHome1 from '../images/custom/feature-explanation-home-1.png';
-import FeatureExplanationHome2 from '../images/custom/feature-explanation-home-2.png';
-import FeatureExplanationHome3 from '../images/custom/feature-explanation-home-3.png';
+import FeatureExplanationHome1 from '../images/feature-explanation-home-1.png';
+import FeatureExplanationHome2 from '../images/feature-explanation-home-2.png';
+import FeatureExplanationHome3 from '../images/feature-explanation-home-3.png';
 
 function Home() {
   return (
