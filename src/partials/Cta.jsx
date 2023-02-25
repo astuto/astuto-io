@@ -14,12 +14,12 @@ function Cta() {
               {/* CTA content */}
               <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left">
                 <h3 className="h3 text-white mb-2">Do you want to give it a try?</h3>
-                <p className="text-white text-lg opacity-75">We offer a free 14 days trial. No credit card required.</p>
+                <p className="text-white text-lg opacity-75">Go to Astuto GitHub repo!</p>
               </div>
 
               {/* CTA button */}
               <div>
-                <a className="btn text-black bg-white" href="#">
+                <a className="btn text-black bg-white" href="https://github.com/astuto/astuto">
                   Get started
                   <svg className="w-3 h-3 fill-current text-gray-400 shrink-0 ml-2 -mr-1" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                     <path d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z" fillRule="nonzero" />
