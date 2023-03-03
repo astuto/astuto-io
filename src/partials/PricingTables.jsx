@@ -15,7 +15,7 @@ function PricingTables() {
     <section id="pricing" className="relative pt-8">
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
-      <div className="absolute inset-0 bg-gray-100 pointer-events-none mb-16" aria-hidden="true"></div>
+      <div className="absolute inset-0 bg-primary-lightest pointer-events-none mb-16" aria-hidden="true"></div>
       <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-200 transform -translate-y-1/2"></div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -23,12 +23,12 @@ function PricingTables() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center mb-8">
-            <h1 className="h1" data-aos="zoom-y-out">
-              Pricing
+            <h1 className="h2" data-aos="zoom-y-out">
+              <mark>Pricing</mark>
             </h1>
-            <p className="text-xl text-gray-600" data-aos="zoom-y-out" data-aos-delay="150">
+            {/* <p className="text-xl text-gray-600" data-aos="zoom-y-out" data-aos-delay="150">
               A single pricing plan for most small-medium organizations.
-            </p>
+            </p> */}
           </div>
 
           {/* Pricing tables */}
@@ -53,7 +53,7 @@ function PricingTables() {
                   className={`relative flex-1 text-sm font-medium p-1 transition duration-150 ease-in-out ${!value && 'text-gray-500'}`}
                   onClick={(e) => { e.preventDefault(); setValue(true); }}
                 >
-                  Bill Yearly <span className="text-green-500">-25%</span>
+                  Bill Yearly <span className="color-primary">-25%</span>
                 </button>
               </div>
             </div>
@@ -85,32 +85,32 @@ function PricingTables() {
                 </div>
                 <ul className="text-gray-600 -mb-2 grow">
                   <li className="flex items-center mb-2">
-                    <svg className="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                    <svg className="w-3 h-3 fill-current color-primary mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
                     <span>All the features</span>
                   </li>
                   <li className="flex items-center mb-2">
-                    <svg className="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                    <svg className="w-3 h-3 fill-current color-primary mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
                     <span>Unlimited boards</span>
                   </li>
                   <li className="flex items-center mb-2">
-                    <svg className="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                    <svg className="w-3 h-3 fill-current color-primary mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
                     <span>Unlimited posts</span>
                   </li>
                   <li className="flex items-center mb-2">
-                    <svg className="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                    <svg className="w-3 h-3 fill-current color-primary mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
                     <span>Custom OAuths</span>
                   </li>
                 </ul>
                 <div className="border-t border-gray-200 pt-5 mt-6">
-                  <a className="btn-sm text-white bg-black w-full" href="#">Get started for free</a>
+                  <a className="btn-sm btn-primary w-full" href="#">Get started</a>
                 </div>
               </div>
 

@@ -25,7 +25,7 @@ function FeedbackCycleHome() {
     <section id="features" className="relative pt-8">
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
-      <div className="absolute inset-0 bg-gray-100 pointer-events-none mb-16" aria-hidden="true"></div>
+      <div className="absolute inset-0 bg-primary-lightest pointer-events-none mb-16" aria-hidden="true"></div>
       <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-200 transform -translate-y-1/2"></div>
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
@@ -33,7 +33,7 @@ function FeedbackCycleHome() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-8">
-            <h1 className="h2 mb-4">How it works</h1>
+            <h1 className="h2 mb-4"><mark>How it works</mark></h1>
           </div>
 
           {/* Section content */}
@@ -48,7 +48,7 @@ function FeedbackCycleHome() {
                   className={`w-full text-left flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
-                  <div className="flex justify-center items-center w-8 h-8 bg-black text-white font-extrabold rounded-full shadow shrink-0 mr-5">
+                  <div className="flex justify-center items-center w-8 h-8 bg-primary text-white font-extrabold rounded-full shadow shrink-0 mr-5">
                     <span>1</span>
                   </div>
                   <div>
@@ -64,7 +64,7 @@ function FeedbackCycleHome() {
                   className={`w-full text-left flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 2 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
-                  <div className="flex justify-center items-center w-8 h-8 bg-black text-white font-extrabold rounded-full shadow shrink-0 mr-5">
+                  <div className="flex justify-center items-center w-8 h-8 bg-primary text-white font-extrabold rounded-full shadow shrink-0 mr-5">
                     <span>2</span>
                   </div>
                   <div>
@@ -80,7 +80,7 @@ function FeedbackCycleHome() {
                   className={`w-full text-left flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 3 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
-                  <div className="flex justify-center items-center w-8 h-8 bg-black text-white font-extrabold rounded-full shadow shrink-0 mr-5">
+                  <div className="flex justify-center items-center w-8 h-8 bg-primary text-white font-extrabold rounded-full shadow shrink-0 mr-5">
                     <span>3</span>
                   </div>
                   <div>
