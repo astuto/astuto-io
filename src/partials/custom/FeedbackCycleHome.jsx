@@ -26,14 +26,14 @@ function FeedbackCycleHome() {
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div className="absolute inset-0 bg-primary-lightest pointer-events-none mb-16" aria-hidden="true"></div>
-      <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-200 transform -translate-y-1/2"></div>
+      {/* <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-200 transform -translate-y-1/2"></div> */}
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-12 md:pt-20">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-8">
-            <h1 className="h2 mb-4"><mark>How it works</mark></h1>
+          <div className="max-w-3xl mx-auto text-center pb-8">
+            <h2 className="h2 mb-4">How it works</h2>
           </div>
 
           {/* Section content */}
@@ -45,50 +45,50 @@ function FeedbackCycleHome() {
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
                 <button
-                  className={`w-full text-left flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  className={`w-full text-left flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-gray-400'}`}
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
-                  <div className="flex justify-center items-center w-8 h-8 bg-primary text-white font-extrabold rounded-full shadow shrink-0 mr-5">
+                  <div className="flex justify-center items-center w-10 h-10 text-md bg-primary text-white font-bold rounded-full shadow shrink-0 mr-5">
                     <span>1</span>
                   </div>
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">
-                      Collect feedback from your users
+                    <div className="font-bold text-xl leading-snug tracking-tight mb-1">
+                      Collect
                     </div>
                     <div className="text-gray-600">
-                      Your users can submit their ideas and suggestions.
+                      Gather ideas and suggestions from your customers.
                     </div>
                   </div>
                 </button>
                 <button
-                  className={`w-full text-left flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 2 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  className={`w-full text-left flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 2 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-gray-400'}`}
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
-                  <div className="flex justify-center items-center w-8 h-8 bg-primary text-white font-extrabold rounded-full shadow shrink-0 mr-5">
+                  <div className="flex justify-center items-center w-10 h-10 text-md bg-primary text-white font-bold rounded-full shadow shrink-0 mr-5">
                     <span>2</span>
                   </div>
                   <div>
-                    <div className="font-bold text-lg leading-snug tracking-tight mb-1">
-                      Prioritize the received feedback
+                    <div className="font-bold text-xl leading-snug tracking-tight mb-1">
+                      Analyze
                     </div>
                     <div className="text-gray-600">
-                      Filter by the most voted ideas and decide what to build next.
+                      Understand what matters most to your customers.
                     </div>
                   </div>
                 </button>
                 <button
-                  className={`w-full text-left flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 3 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  className={`w-full text-left flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 3 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-gray-400'}`}
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
-                  <div className="flex justify-center items-center w-8 h-8 bg-primary text-white font-extrabold rounded-full shadow shrink-0 mr-5">
+                  <div className="flex justify-center items-center w-10 h-10 text-md bg-primary text-white font-bold rounded-full shadow shrink-0 mr-5">
                     <span>3</span>
                   </div>
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">
-                      Keep users in the loop
+                    <div className="font-bold text-xl leading-snug tracking-tight mb-1">
+                      Share
                     </div>
                     <div className="text-gray-600">
-                      Be transparent and share what you're working on with your users.
+                      Keep customers in the loop and let them know what you're working on.
                     </div>
                   </div>
                 </button>

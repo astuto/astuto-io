@@ -6,8 +6,8 @@ function PricingTables() {
 
   const [priceOutput] = useState({
     plan1: {
-      false: ['€', '20', '/month'],
-      true: ['€', '180', '/year']
+      false: ['€', '30', '/month'],
+      true: ['€', '270', '/year']
     }
   });
 
@@ -16,7 +16,6 @@ function PricingTables() {
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div className="absolute inset-0 bg-primary-lightest pointer-events-none mb-16" aria-hidden="true"></div>
-      <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-200 transform -translate-y-1/2"></div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-12 md:pt-20 pb-12">
@@ -24,11 +23,8 @@ function PricingTables() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center mb-8">
             <h1 className="h2" data-aos="zoom-y-out">
-              <mark>Pricing</mark>
+              Pricing
             </h1>
-            {/* <p className="text-xl text-gray-600" data-aos="zoom-y-out" data-aos-delay="150">
-              A single pricing plan for most small-medium organizations.
-            </p> */}
           </div>
 
           {/* Pricing tables */}
@@ -44,16 +40,16 @@ function PricingTables() {
                   <span className={`absolute inset-0 w-1/2 bg-white rounded shadow transform transition duration-150 ease-in-out ${value ? 'translate-x-full' : 'translate-x-0'}`}></span>
                 </span>
                 <button
-                  className={`relative flex-1 text-sm font-medium p-1 transition duration-150 ease-in-out ${value && 'text-gray-500'}`}
+                  className={`relative flex-1 text-md font-medium p-1 transition duration-150 ease-in-out ${value && 'text-gray-500'}`}
                   onClick={(e) => { e.preventDefault(); setValue(false); }}
                 >
                   Bill Monthly
                 </button>
                 <button
-                  className={`relative flex-1 text-sm font-medium p-1 transition duration-150 ease-in-out ${!value && 'text-gray-500'}`}
+                  className={`relative flex-1 text-md font-medium p-1 transition duration-150 ease-in-out ${!value && 'text-gray-500'}`}
                   onClick={(e) => { e.preventDefault(); setValue(true); }}
                 >
-                  Bill Yearly <span className="color-primary">-25%</span>
+                  Bill Yearly <span className="color-primary font-bold">-25%</span>
                 </button>
               </div>
             </div>
@@ -81,9 +77,11 @@ function PricingTables() {
                         <span className="text-lg">)</span>
                       </div>
                   }
-                  <div className="text-lg text-gray-800">For larger teams that need to create, and collaborate.</div>
+                  <div className="text-md text-gray-800">
+                    For most small-medium organizations. Bigger organizations can <a href="mailto:#" className="underline">contact us</a> for a custom plan.
+                  </div>
                 </div>
-                <ul className="text-gray-600 -mb-2 grow">
+                <ul className="text-gray-600 text-lg grow">
                   <li className="flex items-center mb-2">
                     <svg className="w-3 h-3 fill-current color-primary mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
@@ -94,23 +92,22 @@ function PricingTables() {
                     <svg className="w-3 h-3 fill-current color-primary mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
+                    <span>Unlimited feedback</span>
+                  </li>
+                  <li className="flex items-center mb-2">
+                    <svg className="w-3 h-3 fill-current color-primary mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                    </svg>
                     <span>Unlimited boards</span>
-                  </li>
-                  <li className="flex items-center mb-2">
-                    <svg className="w-3 h-3 fill-current color-primary mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                    </svg>
-                    <span>Unlimited posts</span>
-                  </li>
-                  <li className="flex items-center mb-2">
-                    <svg className="w-3 h-3 fill-current color-primary mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                    </svg>
-                    <span>Custom OAuths</span>
                   </li>
                 </ul>
                 <div className="border-t border-gray-200 pt-5 mt-6">
-                  <a className="btn-sm btn-primary w-full" href="#">Get started</a>
+                  <a className="btn-sm btn-primary w-full" href="#">
+                    Get started
+                    <svg className="w-3 h-3 fill-current text-white shrink-0 ml-2 -mr-1" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z" fillRule="nonzero" />
+                    </svg>
+                  </a>
                 </div>
               </div>
 

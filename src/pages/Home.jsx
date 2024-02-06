@@ -3,10 +3,10 @@ import React from 'react';
 import Header from '../partials/Header';
 import HeroHome from '../partials/HeroHome';
 import FeedbackCycleHome from '../partials/custom/FeedbackCycleHome';
-import FeaturesHome from '../partials/custom/FeaturesHome';
 import PricingTables from '../partials/PricingTables';
 import Cta from '../partials/Cta';
 import Footer from '../partials/Footer';
+import FeaturesBlocks from '../partials/FeaturesBlocks';
 
 function Home() {
   return (
@@ -23,7 +23,7 @@ function Home() {
 
         <FeedbackCycleHome />
 
-        <FeaturesHome />
+        <FeaturesBlocks />
 
         {/* <PricingTables /> */}
 

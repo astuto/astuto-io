@@ -73,7 +73,7 @@ function Header() {
                 </HashLink>
               </li> */}
               <li>
-                <Link to="https://docs.astuto.io" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">
+                <Link to="https://docs.astuto.io" target="_blank" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">
                   Documentation
                 </Link>
               </li>
@@ -81,11 +81,6 @@ function Header() {
 
             {/* Desktop sign in links */}
             <ul className="flex grow justify-end flex-wrap items-center">
-              <li>
-                <Link to="#" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">
-                  Sign in
-                </Link>
-              </li>
               <li>
                 <Link to="https://github.com/astuto/astuto" className="btn-sm btn-primary ml-3">
                   <span>Get started</span>
@@ -143,14 +138,8 @@ function Header() {
                     </HashLink>
                   </li> */}
                   <li>
-                    <Link to="https://docs.astuto.io" onClick={() => setMobileNavOpen(false)} className="flex text-gray-600 hover:text-gray-900 py-2">
+                    <Link to="https://docs.astuto.io" target="_blank" onClick={() => setMobileNavOpen(false)} className="flex text-gray-600 hover:text-gray-900 py-2">
                       Documentation
-                    </Link>
-                  </li>
-                  
-                  <li>
-                    <Link to="#" className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center">
-                      Sign in
                     </Link>
                   </li>
                   <li>
