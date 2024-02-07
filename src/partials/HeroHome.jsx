@@ -1,7 +1,7 @@
 import React from 'react';
-import { HashLink } from 'react-router-hash-link';
 
 import HeroImage from '../images/hero-image.png';
+import GetStartedButton from './custom/GetStartedButton';
 
 function HeroHome() {
   return (
@@ -20,15 +20,8 @@ function HeroHome() {
               Astuto helps you collect and organize feedback from your users, so you can focus on building what matters to them.
             </p>
             <div className="max-w-3xl mx-auto mt-8">
-              <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
-                <div>
-                  <a href="https://github.com/astuto/astuto" className="btn btn-primary w-full sm:w-auto sm:ml-4">
-                    Get started
-                    <svg className="w-3 h-3 fill-current text-white shrink-0 ml-2 -mr-1" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z" fillRule="nonzero" />
-                    </svg>
-                  </a>
-                </div>
+              <div className="max-w-xs mx-auto sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
+                <GetStartedButton />
               </div>
             </div>
           </div>
