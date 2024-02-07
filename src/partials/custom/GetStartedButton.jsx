@@ -5,7 +5,13 @@ const GetStartedButton = ({
 }) => (
   <a
     href="https://github.com/astuto/astuto"
-    data-goatcounter-click="get-started"
+    onClick={() => {
+      window.goatcounter.count({
+        path:  'click-get-started',
+        title: 'Click Get Started button',
+        event: true,
+      });
+    }}
     className={`${small ? 'btn-sm' : 'btn'} btn-primary ${bgColor ? 'bg-'+bgColor : ''} ${txtColor ? 'text-'+txtColor : ''} w-full`}
   >
     Get started
