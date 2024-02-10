@@ -48,7 +48,7 @@ function FeedbackCycleHome() {
                   className={`w-full text-left flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-gray-400'}`}
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
-                  <div className="flex justify-center items-center w-10 h-10 text-md bg-primary text-white font-bold rounded-full shadow shrink-0 mr-5">
+                  <div className={`flex justify-center items-center w-10 h-10 text-md ${tab === 1 ? 'bg-primary text-white' : ''} font-bold rounded-full shrink-0 mr-5`}>
                     <span>1</span>
                   </div>
                   <div>
@@ -64,7 +64,7 @@ function FeedbackCycleHome() {
                   className={`w-full text-left flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 2 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-gray-400'}`}
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
-                  <div className="flex justify-center items-center w-10 h-10 text-md bg-primary text-white font-bold rounded-full shadow shrink-0 mr-5">
+                  <div className={`flex justify-center items-center w-10 h-10 text-md ${tab === 2 ? 'bg-primary text-white' : ''} font-bold rounded-full shrink-0 mr-5`}>
                     <span>2</span>
                   </div>
                   <div>
@@ -80,7 +80,7 @@ function FeedbackCycleHome() {
                   className={`w-full text-left flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 3 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-gray-400'}`}
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
-                  <div className="flex justify-center items-center w-10 h-10 text-md bg-primary text-white font-bold rounded-full shadow shrink-0 mr-5">
+                  <div className={`flex justify-center items-center w-10 h-10 text-md ${tab === 3 ? 'bg-primary text-white' : ''} font-bold rounded-full shrink-0 mr-5`}>
                     <span>3</span>
                   </div>
                   <div>
