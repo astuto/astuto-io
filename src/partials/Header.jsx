@@ -64,17 +64,48 @@ function Header() {
             {/* Desktop menu links */}
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
-                <HashLink to="/#features" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">
+                <HashLink
+                  to="/#features"
+                  onClick={() => {
+                    window.goatcounter.count({
+                      path:  'click-features',
+                      title: 'Click Features menu link',
+                      event: true,
+                    });
+                  }}
+                  className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                >
                   Features
                 </HashLink>
               </li>
               {/* <li>
-                <HashLink to="/#pricing" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">
+                <HashLink
+                  to="/#pricing"
+                  onClick={() => {
+                    window.goatcounter.count({
+                      path:  'click-pricing',
+                      title: 'Click Pricing menu link',
+                      event: true,
+                    });
+                  }}
+                  className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                >
                   Pricing
                 </HashLink>
               </li> */}
               <li>
-                <Link to="https://docs.astuto.io" target="_blank" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">
+                <Link
+                  to="https://docs.astuto.io"
+                  target="_blank"
+                  onClick={() => {
+                    window.goatcounter.count({
+                      path:  'click-docs',
+                      title: 'Click Documentation menu link',
+                      event: true,
+                    });
+                  }}
+                  className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                >
                   Documentation
                 </Link>
               </li>
@@ -124,21 +155,55 @@ function Header() {
               >
                 <ul className="px-5 py-2">
                   <li>
-                    <HashLink to="/#features" onClick={() => setMobileNavOpen(false)} className="flex text-gray-600 hover:text-gray-900 py-2">
+                    <HashLink
+                      to="/#features"
+                      onClick={() => {
+                        setMobileNavOpen(false);
+                        window.goatcounter.count({
+                          path:  'click-features',
+                          title: 'Click Features menu link',
+                          event: true,
+                        });
+                      }}
+                      className="flex text-gray-600 hover:text-gray-900 py-2"
+                    >
                       Features
                     </HashLink>
                   </li>
                   {/* <li>
-                    <HashLink to="/#pricing" onClick={() => setMobileNavOpen(false)} className="flex text-gray-600 hover:text-gray-900 py-2">
+                    <HashLink
+                      to="/#pricing"
+                      onClick={() => {
+                        setMobileNavOpen(false);
+                        window.goatcounter.count({
+                          path:  'click-pricing',
+                          title: 'Click Pricing menu link',
+                          event: true,
+                        });
+                      }}
+                      className="flex text-gray-600 hover:text-gray-900 py-2"
+                    >
                       Pricing
                     </HashLink>
                   </li> */}
                   <li>
-                    <Link to="https://docs.astuto.io" target="_blank" onClick={() => setMobileNavOpen(false)} className="flex text-gray-600 hover:text-gray-900 py-2">
+                    <Link
+                      to="https://docs.astuto.io"
+                      target="_blank"
+                      onClick={() => {
+                        setMobileNavOpen(false);
+                        window.goatcounter.count({
+                          path:  'click-docs',
+                          title: 'Click Documentation menu link',
+                          event: true,
+                        });
+                      }}
+                      className="flex text-gray-600 hover:text-gray-900 py-2"
+                    >
                       Documentation
                     </Link>
                   </li>
-                  <li>
+                  <li className="py-2">
                     <GetStartedButton />
                   </li>
                 </ul>

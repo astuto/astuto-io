@@ -72,7 +72,7 @@ function FeedbackCycleHome() {
                       Analyze
                     </div>
                     <div className="text-gray-600">
-                      Understand what matters most to your customers.
+                      Organize and analyze feedback to decide what to build next.
                     </div>
                   </div>
                 </button>

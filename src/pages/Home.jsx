@@ -2,6 +2,7 @@ import React from 'react';
 
 import Header from '../partials/Header';
 import HeroHome from '../partials/HeroHome';
+import HallOfFame from '../partials/custom/HallOfFame';
 import FeedbackCycleHome from '../partials/custom/FeedbackCycleHome';
 import PricingTables from '../partials/PricingTables';
 import Cta from '../partials/Cta';
@@ -20,6 +21,8 @@ function Home() {
 
         {/*  Page sections */}
         <HeroHome />
+
+        <HallOfFame />
 
         <FeedbackCycleHome />
 
