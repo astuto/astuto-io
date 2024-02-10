@@ -20,7 +20,7 @@ function Cta() {
 
               {/* CTA button */}
               <div>
-                <GetStartedButton bgColor="white" txtColor="black" />
+                <GetStartedButton type="secondary" />
               </div>
 
             </div>

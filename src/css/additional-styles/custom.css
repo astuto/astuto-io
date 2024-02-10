@@ -20,6 +20,12 @@
   font-weight: bolder;
 }
 
+.btn-secondary {
+  background-color: #FFFFFF;
+  color: var(--primary-color);
+  font-weight: bolder;
+}
+
 mark {
   background-color: var(--primary-color-light);
   white-space: nowrap; /* LIMITATION! */
