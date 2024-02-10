@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import {
   Routes,
   Route,
+  Navigate,
   useLocation
 } from 'react-router-dom';
 
@@ -12,7 +13,7 @@ import AOS from 'aos';
 import Sticky from 'sticky-js';
 
 import Home from './pages/Home';
-import PageNotFound from './pages/PageNotFound';
+import Credits from './pages/Credits';
 
 function App() {
 
@@ -39,7 +40,8 @@ function App() {
     <>
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="*" element={<PageNotFound />} />
+        <Route path="/credits" element={<Credits />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </>
   );

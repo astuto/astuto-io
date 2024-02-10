@@ -80,7 +80,16 @@ function Footer() {
 
           {/* 4th block */}
           <div className="xs:col-span-6 sm:col-span-6 md:col-span-3">
-            <div className="mb-2">
+            <h6 className="text-gray-800 font-medium mb-2">About</h6>
+            <ul className="text-sm">
+              <li className="mb-2">
+                <Link to="/credits" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
+                  Credits
+                </Link>
+              </li>
+            </ul>
+
+            <div className="mt-8 mb-2">
               {/* Logo */}
               <HashLink to="/#" className="inline-block" aria-label="Cruip">
                 <img src={Logo} width={32} height={32} />
