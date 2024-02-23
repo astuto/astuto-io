@@ -115,7 +115,7 @@ function FeedbackCycleHome() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="w-full relative inline-flex flex-col cursor-pointer" onClick={(e) => { setTab(2); }}>
-                    <img className="w-full mx-auto rounded-lg shadow-xl border" src={FeedbackCycleElement01} width="1200" height="661" alt="Feedback cycle part 1" />
+                    <img className="w-full mx-auto rounded-lg shadow-xl border" src={FeedbackCycleElement01} width="1200" height="661" alt="Astuto's form for submitting new feedback" />
                   </div>
                 </Transition>
                 {/* Item 2 */}
@@ -131,7 +131,7 @@ function FeedbackCycleHome() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="w-full relative inline-flex flex-col cursor-pointer" onClick={(e) => { setTab(3); }}>
-                  <img className="w-full mx-auto rounded-lg shadow-xl border" src={FeedbackCycleElement02} width="1200" height="778" alt="Feedback cycle part 2" />
+                  <img className="w-full mx-auto rounded-lg shadow-xl border" src={FeedbackCycleElement02} width="1200" height="778" alt="Astuto's filters for searching and organizing feedback" />
                   </div>
                 </Transition>
                 {/* Item 3 */}
@@ -147,7 +147,7 @@ function FeedbackCycleHome() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="w-full relative inline-flex flex-col cursor-pointer" onClick={(e) => { setTab(1); }}>
-                  <img className="w-full mx-auto rounded-lg shadow-xl border" src={FeedbackCycleElement03} width="1200" height="661" alt="Feedback cycle part 3" />
+                  <img className="w-full mx-auto rounded-lg shadow-xl border" src={FeedbackCycleElement03} width="1200" height="661" alt="Astuto's roadmap for letting users know what features you're working on" />
                   </div>
                 </Transition>
               </div>

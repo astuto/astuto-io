@@ -98,7 +98,7 @@ function Footer() {
             <div className="mt-4 mb-2">
               {/* Logo */}
               <HashLink to="/#" className="inline-block" aria-label="Cruip">
-                <img src={Logo} width={32} height={32} />
+                <img src={Logo} width={32} height={32} alt="Astuto Home" />
               </HashLink>
             </div>
           </div>      

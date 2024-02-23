@@ -54,7 +54,7 @@ function Header() {
           <div className="shrink-0 mr-4">
             {/* Logo */}
             <HashLink to="/#" className="flex" aria-label="Astuto">
-              <img src={Logo} width={48} height={48} />
+              <img src={Logo} width={48} height={48} alt="Astuto Home" />
               <span className="text-3xl font-bold self-center ml-4">astuto</span>
             </HashLink>
           </div>

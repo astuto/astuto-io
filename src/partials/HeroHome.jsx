@@ -42,7 +42,7 @@ function HeroHome() {
                   });
                 }}
               >
-                <img className="mx-auto rounded-lg shadow-xl border hero-image hover:scale-105 transition-all" src={HeroImage} width="960" height="731" alt="Example Astuto feedback page showing some customer feedback messages" />
+                <img className="mx-auto rounded-lg shadow-xl border hero-image hover:scale-105 transition-all" src={HeroImage} width="960" height="731" alt="Astuto's feedback page showing some customer feedback messages" />
               </a>
               <div className="text-center mt-6">
                 Check out the&nbsp;
