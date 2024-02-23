@@ -5,6 +5,7 @@ import Transition from '../utils/Transition';
 
 import Logo from '../images/logo.png';
 import GetStartedButton from './custom/GetStartedButton';
+import { DOCS_URL } from '../constants/urls';
 
 function Header() {
 
@@ -95,7 +96,7 @@ function Header() {
               </li> */}
               <li>
                 <Link
-                  to="https://docs.astuto.io"
+                  to={DOCS_URL}
                   target="_blank"
                   onClick={() => {
                     window.goatcounter.count({
@@ -188,7 +189,7 @@ function Header() {
                   </li> */}
                   <li>
                     <Link
-                      to="https://docs.astuto.io"
+                      to={DOCS_URL}
                       target="_blank"
                       onClick={() => {
                         setMobileNavOpen(false);

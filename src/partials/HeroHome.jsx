@@ -3,6 +3,8 @@ import React from 'react';
 import HeroImage from '../images/hero-image.png';
 import GetStartedButton from './custom/GetStartedButton';
 
+import { DEMO_URL } from '../constants/urls';
+
 function HeroHome() {
   return (
     <section className="relative">
@@ -30,7 +32,8 @@ function HeroHome() {
           <div className="flex max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 md:row-start-1md:order-1">
             <div className="relative self-center flex flex-col justify-center" data-aos="zoom-y-out" data-aos-delay="450">
               <a
-                href="#"
+                href={DEMO_URL}
+                target="_blank"
                 onClick={() => {
                   window.goatcounter.count({
                     path:  'click-example',
@@ -39,12 +42,12 @@ function HeroHome() {
                   });
                 }}
               >
-                <img className="mx-auto rounded-lg shadow-xl hover:scale-105 transition-all" src={HeroImage} width="1791" height="1307" alt="Hero" />
+                <img className="mx-auto rounded-lg shadow-xl border hero-image hover:scale-105 transition-all" src={HeroImage} width="960" height="731" alt="Example Astuto feedback page showing some customer feedback messages" />
               </a>
               <div className="text-center mt-6">
                 Check out the&nbsp;
                 <a
-                  href="#"
+                  href={DEMO_URL}
                   target="_blank"
                   className="underline"
                   onClick={() => {
@@ -56,6 +59,19 @@ function HeroHome() {
                   }}
                 >
                   live example
+                </a>
+                <a
+                  href={DEMO_URL}
+                  target="_blank"
+                  onClick={() => {
+                    window.goatcounter.count({
+                      path:  'click-example',
+                      title: 'Click Live Example link',
+                      event: true,
+                    });
+                  }}
+                >
+                  &nbsp;&#8593;
                 </a>
               </div>
             </div>

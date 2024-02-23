@@ -79,7 +79,7 @@ function PricingTables() {
                       </div>
                   }
                   <div className="text-md text-gray-800">
-                    For most small-medium organizations. Bigger organizations can <a href="mailto:#" className="underline">contact us</a> for a custom plan.
+                    For most small-medium organizations. Bigger organizations can <a href="mailto:info@astuto.io" className="underline">contact us</a> for a custom plan.
                   </div>
                 </div>
                 <ul className="text-gray-600 text-lg grow">

@@ -1,6 +1,10 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Transition from '../../utils/Transition';
 
+import FeedbackCycleIcon1 from '../../images/feedback-cycle-icon-1.png';
+import FeedbackCycleIcon2 from '../../images/feedback-cycle-icon-2.png';
+import FeedbackCycleIcon3 from '../../images/feedback-cycle-icon-3.png';
+
 import FeedbackCycleElement01 from '../../images/feedback-cycle-1.png';
 import FeedbackCycleElement02 from '../../images/feedback-cycle-2.png';
 import FeedbackCycleElement03 from '../../images/feedback-cycle-3.png';
@@ -48,12 +52,12 @@ function FeedbackCycleHome() {
                   className={`w-full text-left flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-gray-400'}`}
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
-                  <div className={`flex justify-center items-center w-10 h-10 text-md ${tab === 1 ? 'bg-primary text-white' : ''} font-bold rounded-full shrink-0 mr-5`}>
-                    <span>1</span>
+                  <div className={`flex justify-center items-center shrink-0 mr-6`}>
+                    <img src={FeedbackCycleIcon1} width={48} height={48} />
                   </div>
                   <div>
                     <div className="font-bold text-xl leading-snug tracking-tight mb-1">
-                      Collect
+                      1. Collect
                     </div>
                     <div className="text-gray-600">
                       Gather ideas and suggestions from your customers.
@@ -64,12 +68,12 @@ function FeedbackCycleHome() {
                   className={`w-full text-left flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 2 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-gray-400'}`}
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
-                  <div className={`flex justify-center items-center w-10 h-10 text-md ${tab === 2 ? 'bg-primary text-white' : ''} font-bold rounded-full shrink-0 mr-5`}>
-                    <span>2</span>
+                  <div className={`flex justify-center items-center shrink-0 mr-6`}>
+                    <img src={FeedbackCycleIcon2} width={48} height={48} />
                   </div>
                   <div>
                     <div className="font-bold text-xl leading-snug tracking-tight mb-1">
-                      Analyze
+                      2. Analyze
                     </div>
                     <div className="text-gray-600">
                       Organize and analyze feedback to decide what to build next.
@@ -80,12 +84,12 @@ function FeedbackCycleHome() {
                   className={`w-full text-left flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 3 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-gray-400'}`}
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
-                  <div className={`flex justify-center items-center w-10 h-10 text-md ${tab === 3 ? 'bg-primary text-white' : ''} font-bold rounded-full shrink-0 mr-5`}>
-                    <span>3</span>
+                  <div className={`flex justify-center items-center shrink-0 mr-6`}>
+                    <img src={FeedbackCycleIcon3} width={48} height={48} />
                   </div>
                   <div>
                     <div className="font-bold text-xl leading-snug tracking-tight mb-1">
-                      Share
+                      3. Share
                     </div>
                     <div className="text-gray-600">
                       Keep customers in the loop and let them know what you're working on.
@@ -110,10 +114,8 @@ function FeedbackCycleHome() {
                   leaveStart="opacity-100 translate-y-0"
                   leaveEnd="opacity-0 -translate-y-16"
                 >
-                  <div className="w-full relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={FeedbackCycleElement01} width="500" height="375" alt="Feedback cycle part 1" />
-
-                    {/* <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement01} width="500" height="147" alt="Element 01" style={{ top: '22%' }} /> */}
+                  <div className="w-full relative inline-flex flex-col cursor-pointer" onClick={(e) => { setTab(2); }}>
+                    <img className="w-full mx-auto rounded-lg shadow-xl border" src={FeedbackCycleElement01} width="1200" height="661" alt="Feedback cycle part 1" />
                   </div>
                 </Transition>
                 {/* Item 2 */}
@@ -128,8 +130,8 @@ function FeedbackCycleHome() {
                   leaveStart="opacity-100 translate-y-0"
                   leaveEnd="opacity-0 -translate-y-16"
                 >
-                  <div className="w-full relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={FeedbackCycleElement02} width="500" height="375" alt="Feedback cycle part 2" />
+                  <div className="w-full relative inline-flex flex-col cursor-pointer" onClick={(e) => { setTab(3); }}>
+                  <img className="w-full mx-auto rounded-lg shadow-xl border" src={FeedbackCycleElement02} width="1200" height="778" alt="Feedback cycle part 2" />
                   </div>
                 </Transition>
                 {/* Item 3 */}
@@ -144,8 +146,8 @@ function FeedbackCycleHome() {
                   leaveStart="opacity-100 translate-y-0"
                   leaveEnd="opacity-0 -translate-y-16"
                 >
-                  <div className="w-full relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={FeedbackCycleElement03} width="500" height="375" alt="Feedback cycle part 3" />
+                  <div className="w-full relative inline-flex flex-col cursor-pointer" onClick={(e) => { setTab(1); }}>
+                  <img className="w-full mx-auto rounded-lg shadow-xl border" src={FeedbackCycleElement03} width="1200" height="661" alt="Feedback cycle part 3" />
                   </div>
                 </Transition>
               </div>

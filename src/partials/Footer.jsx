@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
 import Logo from '../images/logo.png';
+import { DOCS_URL } from '../constants/urls';
 
 function Footer() {
   return (
@@ -39,7 +40,7 @@ function Footer() {
             <h6 className="text-gray-800 font-medium mb-2">Resources</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <Link to="https://docs.astuto.io" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
+                <Link to={DOCS_URL} className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
                   Documentation
                 </Link>
               </li>
@@ -87,18 +88,18 @@ function Footer() {
                   Credits
                 </Link>
               </li>
+              <li className="mb-2">
+                <Link to="mailto:info@astuto.io" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
+                  Contact us
+                </Link>
+              </li>
             </ul>
 
-            <div className="mt-8 mb-2">
+            <div className="mt-4 mb-2">
               {/* Logo */}
               <HashLink to="/#" className="inline-block" aria-label="Cruip">
                 <img src={Logo} width={32} height={32} />
               </HashLink>
-
-              {/* Copyrights note */}
-              <div className="text-sm text-gray-600 mr-4">
-                &copy; {new Date().getFullYear()} Astuto
-              </div>
             </div>
           </div>      
         </div>

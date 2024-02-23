@@ -4,7 +4,7 @@
   --primary-color: rgba(var(--primary-color-rgb), 1.0);
   --primary-color-light: rgba(var(--primary-color-rgb), 0.6);
   --primary-color-lighter: rgba(var(--primary-color-rgb), 0.3);
-  --primary-color-lightest: rgba(var(--primary-color-rgb), 0.05);
+  --primary-color-lightest: rgba(var(--primary-color-rgb), 0.025);
 }
 
 .color-primary { color: var(--primary-color); }
@@ -32,4 +32,8 @@ mark {
   display: inline-block;
   line-height: 0em;
   padding-bottom: 0.5em;
+}
+
+.hero-image {
+  border: thin solid #e1e1e1;
 }
