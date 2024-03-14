@@ -34,6 +34,7 @@ function Credits() {
                   <li><strong>Error 422 icon</strong>: <a href="https://www.flaticon.com/free-icons/rejection" title="rejection icons">Rejection icons created by Freepik - Flaticon</a></li>
                   <li><strong>Error 500 icon</strong>: <a href="https://www.flaticon.com/free-icons/broken-cable" title="broken cable icons">Broken cable icons created by Freepik - Flaticon</a></li>
                   <li><strong>Pending tenant icon</strong>: <a href="https://www.flaticon.com/free-icons/pending" title="pending icons">Pending icons created by Freepik - Flaticon</a></li>
+                  <li><strong>Maintenance icon</strong>: <a href="https://www.flaticon.com/free-icons/maintenance" title="maintenance icons">Maintenance icons created by Freepik - Flaticon</a></li>
                 </ul>
                 <div className="mt-8">
                   <Link to="/" className="btn btn-primary">Go back home</Link>
