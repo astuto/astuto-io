@@ -37,7 +37,9 @@ function FeedbackCycleHome() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-8">
-            <h2 className="h2 mb-4">How it works</h2>
+            <h2 className="h2 mb-4" data-aos="zoom-y-out">
+              How it works
+            </h2>
           </div>
 
           {/* Section content */}

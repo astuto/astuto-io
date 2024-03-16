@@ -15,14 +15,14 @@ function HeroHome() {
 
           {/* Section header */}
           <div className="text-center pb-12 max-w-xl md:text-left md:max-w-none md:w-full mx-auto md:col-span-5 md:row-start-1 md:mt-6">
-            <h1 className="text-3xl font-bold leading-tighter tracking-tighter mb-8 lg:text-4xl" data-aos="zoom-y-out">
+            <h1 className="text-3xl font-bold leading-tighter tracking-tighter mb-8 lg:text-4xl">
               <span>Understand your customers and build a better product</span>
             </h1>
             <p className="text-xl text-gray-600">
               Astuto helps you collect and organize feedback from your users, so you can focus on building what matters.
             </p>
             <div className="max-w-3xl mx-auto mt-8">
-              <div className="max-w-xs mx-auto sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
+              <div className="max-w-xs mx-auto sm:flex sm:justify-center">
                 <GetStartedButton />
               </div>
             </div>
@@ -30,7 +30,7 @@ function HeroHome() {
 
           {/* Hero image */}
           <div className="flex max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 md:row-start-1md:order-1">
-            <div className="relative self-center flex flex-col justify-center" data-aos="zoom-y-out" data-aos-delay="450">
+            <div className="relative self-center flex flex-col justify-center">
               <a
                 href={DEMO_URL}
                 target="_blank"

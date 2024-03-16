@@ -23,16 +23,16 @@ function PricingTables() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center mb-8">
-            <h1 className="h2" data-aos="zoom-y-out">
+            <h2 className="h2" data-aos="zoom-y-out">
               Pricing
-            </h1>
+            </h2>
           </div>
 
           {/* Pricing tables */}
           <div>
 
             {/* Pricing toggle */}
-            <div className="flex justify-center max-w-xs m-auto mb-4" data-aos="zoom-y-out" data-aos-delay="300">
+            <div className="flex justify-center max-w-xs m-auto mb-4" data-aos="zoom-y-out">
               <div className="relative flex w-full mx-6 p-1 bg-gray-200 rounded">
                 <span
                   className="absolute inset-0 m-1 pointer-events-none"
@@ -50,7 +50,7 @@ function PricingTables() {
                   className={`relative flex-1 text-md font-medium p-1 transition duration-150 ease-in-out ${!value && 'text-gray-500'}`}
                   onClick={(e) => { e.preventDefault(); setValue(true); }}
                 >
-                  Bill Yearly <span className="color-primary font-bold">-25%</span>
+                  Bill Yearly <span className="text-red-500 font-bold">-25%</span>
                 </button>
               </div>
             </div>
@@ -58,7 +58,7 @@ function PricingTables() {
             <div className="max-w-sm mx-auto grid gap-8 grid-cols-1 xl:gap-6 items-start">
 
               {/* Pricing table 1 */}
-              <div className="relative flex flex-col h-full py-5 px-6 rounded bg-white shadow-xl" data-aos="zoom-y-out" data-aos-delay="450">
+              <div className="relative flex flex-col h-full py-5 px-6 rounded bg-white shadow-xl" data-aos="zoom-y-out">
                 <div className="mb-4">
                   {/* <div className="text-lg font-bold mb-1">Starter</div> */}
 
@@ -71,7 +71,7 @@ function PricingTables() {
                   {
                     value &&
                       <div className="inline-flex items-baseline mb-2">
-                        <span className="text-lg ml-4">(</span>
+                        <span className="text-lg ml-8">(</span>
                         <span className="text-xl font-bold">{priceOutput.plan1[value][0]}</span>
                         <span className="text-xl font-bold">{parseInt(priceOutput.plan1[value][1]) / 12}</span>
                         <span className="text-gray-600 pl-2">{'/month'}</span>
@@ -79,7 +79,9 @@ function PricingTables() {
                       </div>
                   }
                   <div className="text-md text-gray-800">
-                    For most small-medium organizations. Bigger organizations can <a href="mailto:info@astuto.io" className="underline">contact us</a> for a custom plan.
+                    For most small-medium organizations.
+                    <br />
+                    Bigger organizations can <a href="mailto:info@astuto.io" className="underline">contact us</a> for a custom plan.
                   </div>
                 </div>
                 <ul className="text-gray-600 text-lg grow">
@@ -87,7 +89,7 @@ function PricingTables() {
                     <svg className="w-3 h-3 fill-current color-primary mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>All the features</span>
+                    <span>All features</span>
                   </li>
                   <li className="flex items-center mb-2">
                     <svg className="w-3 h-3 fill-current color-primary mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
