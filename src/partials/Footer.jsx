@@ -84,6 +84,11 @@ function Footer() {
             <h6 className="text-gray-800 font-medium mb-2">About</h6>
             <ul className="text-sm">
               <li className="mb-2">
+                <Link to="/terms-of-service" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
+                  Terms of Service
+                </Link>
+              </li>
+              <li className="mb-2">
                 <Link to="/credits" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
                   Credits
                 </Link>

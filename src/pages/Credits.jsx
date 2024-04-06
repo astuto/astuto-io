@@ -37,7 +37,7 @@ function Credits() {
                   <li><strong>Maintenance icon</strong>: <a href="https://www.flaticon.com/free-icons/maintenance" title="maintenance icons">Maintenance icons created by Freepik - Flaticon</a></li>
                 </ul>
                 <div className="mt-8">
-                  <Link to="/" className="btn btn-primary">Go back home</Link>
+                  <Link to="/" className="btn btn-primary">Go back to home page</Link>
                 </div>
               </div>
             </div>
