@@ -79,7 +79,7 @@ function Header() {
                   Features
                 </HashLink>
               </li>
-              {/* <li>
+              <li>
                 <HashLink
                   to="/#pricing"
                   onClick={() => {
@@ -93,7 +93,7 @@ function Header() {
                 >
                   Pricing
                 </HashLink>
-              </li> */}
+              </li>
               <li>
                 <Link
                   to={DOCS_URL}
@@ -171,7 +171,7 @@ function Header() {
                       Features
                     </HashLink>
                   </li>
-                  {/* <li>
+                  <li>
                     <HashLink
                       to="/#pricing"
                       onClick={() => {
@@ -186,7 +186,7 @@ function Header() {
                     >
                       Pricing
                     </HashLink>
-                  </li> */}
+                  </li>
                   <li>
                     <Link
                       to={DOCS_URL}

@@ -28,7 +28,7 @@ function Home() {
 
         <FeaturesBlocks />
 
-        {/* <PricingTables /> */}
+        <PricingTables />
 
         <Cta />
 

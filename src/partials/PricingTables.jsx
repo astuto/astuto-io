@@ -7,8 +7,8 @@ function PricingTables() {
 
   const [priceOutput] = useState({
     plan1: {
-      false: ['€', '30', '/month'],
-      true: ['€', '270', '/year']
+      false: ['€', '20', '/month'],
+      true: ['€', '180', '/year']
     }
   });
 
@@ -105,7 +105,14 @@ function PricingTables() {
                   </li>
                 </ul>
                 <div className="border-t border-gray-200 pt-5 mt-6">
-                  <GetStartedButton />
+                  {/* <GetStartedButton /> */}
+                  <p className="h4 text-center mb-4">Available soon</p>
+
+                  <p className="text-center">
+                    <a href="mailto:info@astuto.io?subject=Notification when paid plan becomes available&body=Hi, I'd like to be notified on this email when Astuto's paid plan becomes available. Thank you." className="underline">
+                      Let me know when the paid plan becomes available
+                    </a>
+                  </p>
                 </div>
               </div>
 

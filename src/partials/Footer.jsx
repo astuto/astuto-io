@@ -27,11 +27,11 @@ function Footer() {
                   Features
                 </HashLink>
               </li>
-              {/* <li className="mb-2">
-                <HashLink to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
+              <li className="mb-2">
+                <HashLink to="/#pricing" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
                   Pricing
                 </HashLink>
-              </li> */}
+              </li>
               <li className="mb-2">
                 <Link to={DOCS_URL} className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
                   Documentation
