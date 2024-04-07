@@ -71,6 +71,15 @@ function TermsOfService() {
                   Your continued use of the Service after the Subscription fee change comes into effect constitutes your agreement to pay the modified Subscription fee amount.
                 </p>
 
+                {/*  Subsection: Refunds */}
+                <h4 className="h4 mt-8 mb-4 text-black">
+                  Refunds
+                </h4>
+
+                <p className="mb-4">
+                  Certain refund requests for Subscriptions may be considered by Astuto on a case-by-case basis and granted in sole discretion of Astuto.
+                </p>
+
                 {/*  Subsection: Accounts */}
                 <h4 className="h4 mt-8 mb-4 text-black">
                   Accounts
@@ -176,7 +185,7 @@ function TermsOfService() {
                 </p>
 
                 <p className="mt-8 mb-4 italic">
-                  This version of the Terms of Service took effect April 6, 2024.
+                  This version of the Terms of Service took effect April 7, 2024.
                 </p>
 
                 <div className="mt-8 text-center">
