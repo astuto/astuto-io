@@ -32,27 +32,15 @@ function Footer() {
                   Pricing
                 </HashLink>
               </li> */}
-            </ul>
-          </div>
-
-          {/* 2nd block */}
-          <div className="xs:col-span-6 sm:col-span-6 md:col-span-3">
-            <h6 className="text-gray-800 font-medium mb-2">Resources</h6>
-            <ul className="text-sm">
               <li className="mb-2">
                 <Link to={DOCS_URL} className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
                   Documentation
                 </Link>
               </li>
-              <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
-                  Blog
-                </Link>
-              </li>
             </ul>
           </div>
 
-          {/* 3rd block */}
+          {/* 2nd block */}
           <div className="xs:col-span-6 sm:col-span-6 md:col-span-3">
             <h6 className="text-gray-800 font-medium mb-2">We are on</h6>
             <ul className="text-sm">
@@ -79,15 +67,27 @@ function Footer() {
             </ul>
           </div>
 
-          {/* 4th block */}
+          {/* 3rd block */}
           <div className="xs:col-span-6 sm:col-span-6 md:col-span-3">
-            <h6 className="text-gray-800 font-medium mb-2">About</h6>
+            <h6 className="text-gray-800 font-medium mb-2">Legal</h6>
             <ul className="text-sm">
               <li className="mb-2">
                 <Link to="/terms-of-service" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
                   Terms of Service
                 </Link>
               </li>
+              <li className="mb-2">
+                <Link to="/privacy-policy" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
+                  Privacy Policy
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* 4th block */}
+          <div className="xs:col-span-6 sm:col-span-6 md:col-span-3">
+            <h6 className="text-gray-800 font-medium mb-2">About</h6>
+            <ul className="text-sm">
               <li className="mb-2">
                 <Link to="/credits" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
                   Credits

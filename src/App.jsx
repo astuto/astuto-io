@@ -14,6 +14,7 @@ import Sticky from 'sticky-js';
 
 import Home from './pages/Home';
 import TermsOfService from './pages/TermsOfService';
+import PrivacyPolicy from './pages/PrivacyPolicy';
 import Credits from './pages/Credits';
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/terms-of-service" element={<TermsOfService />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/credits" element={<Credits />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
