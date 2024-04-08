@@ -137,6 +137,15 @@ function PrivacyPolicy() {
                   We don't track you across the Internet. We only track your interactions within our network (which encompasses astuto.io and custom domains hosted by us).
                 </p>
 
+                {/*  Subsection: IP Addresses */}
+                <h4 className="h4 mt-8 mb-4 text-black">
+                  IP Addresses
+                </h4>
+
+                <p className="mb-4">
+                  We may temporarily collect and store the IP addresses of individuals who access our service for security purposes. These IP addresses are not used to identify any individual, but we reserve the right to use this information to block or track malicious users that undermine the security and integrity of our service.
+                </p>
+
                 {/*  Subsection: Links to other websites */}
                 <h4 className="h4 mt-8 mb-4 text-black">
                   Links to other websites
@@ -190,7 +199,7 @@ function PrivacyPolicy() {
                 </p>                
 
                 <p className="mt-8 mb-4 italic">
-                  This version of the Privacy Policy took effect April 7, 2024.
+                  This version of the Privacy Policy took effect April 8, 2024.
                 </p>
 
                 <div className="mt-8 text-center">
