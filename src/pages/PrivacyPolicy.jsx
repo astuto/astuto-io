@@ -117,9 +117,9 @@ function PrivacyPolicy() {
                   </thead>
                   <tbody>
                     <tr>
-                      <td className="border border-gray-300 p-2">Paddle</td>
+                      <td className="border border-gray-300 p-2">Stripe</td>
                       <td className="border border-gray-300 p-2">Subscription and payment processing; Credit card information are never stored on our Service;</td>
-                      <td className="border border-gray-300 p-2"><a href="https://paddle.com/privacy/" className="underline">Paddle Privacy Policy</a></td>
+                      <td className="border border-gray-300 p-2"><a href="https://stripe.com/privacy" className="underline">Stripe Privacy Policy</a></td>
                     </tr>
                   </tbody>
                 </table>
@@ -199,7 +199,7 @@ function PrivacyPolicy() {
                 </p>                
 
                 <p className="mt-8 mb-4 italic">
-                  This version of the Privacy Policy took effect April 8, 2024.
+                  This version of the Privacy Policy took effect April 21, 2024.
                 </p>
 
                 <div className="mt-8 text-center">
