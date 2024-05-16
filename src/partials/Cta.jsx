@@ -14,13 +14,21 @@ function Cta() {
 
               {/* CTA content */}
               <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left">
-                <h3 className="h3 text-white mb-2">Do you want to give it a try?</h3>
-                <p className="text-white text-lg opacity-75">Go to Astuto GitHub repo!</p>
+                <h3 className="h3 text-white mb-2">
+                  Still unsure?
+                </h3>
+                <p className="text-white text-lg opacity-75">
+                  Start your 7-day free trial in minutes, without a credit card.
+                  <br />
+                  You can also request more free trial time if needed.
+                  <br /><br />
+                  For any questions, we're here to help. <a href="mailto:info@astuto.io" className="underline">Contact us</a>.
+                </p>
               </div>
 
               {/* CTA button */}
               <div>
-                <GetStartedButton type="secondary" />
+                <GetStartedButton text="Start your 7-day free trial" type="secondary" />
               </div>
 
             </div>

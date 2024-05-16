@@ -26,6 +26,10 @@ function PricingTables() {
             <h2 className="h2" data-aos="zoom-y-out">
               Pricing
             </h2>
+
+            <h4 className="h4 text-gray-500 italic" data-aos="zoom-y-out">
+              No-tricks, flat-rate pricing
+            </h4>
           </div>
 
           {/* Pricing tables */}
@@ -60,7 +64,7 @@ function PricingTables() {
               {/* Pricing table 1 */}
               <div className="relative flex flex-col h-full py-5 px-6 rounded bg-white shadow-xl" data-aos="zoom-y-out">
                 <div className="mb-4">
-                  {/* <div className="text-lg font-bold mb-1">Starter</div> */}
+                  {/* <div className="text-lg font-bold mb-1">7-day free trial. No credit card required.</div> */}
 
                   <div className="inline-flex items-baseline mb-2">
                     <span className="text-3xl font-bold">{priceOutput.plan1[value][0]}</span>
@@ -104,15 +108,8 @@ function PricingTables() {
                     <span>Unlimited boards</span>
                   </li>
                 </ul>
-                <div className="border-t border-gray-200 pt-5 mt-6">
-                  {/* <GetStartedButton /> */}
-                  <p className="h4 text-center mb-4">Available soon</p>
-
-                  <p className="text-center">
-                    <a href="mailto:info@astuto.io?subject=Notification when paid plan becomes available&body=Hi, I'd like to be notified on this email when Astuto's paid plan becomes available. Thank you." className="underline">
-                      Let me know when the paid plan becomes available
-                    </a>
-                  </p>
+                <div className="mt-4">
+                  <GetStartedButton text="Start your 7-day free trial" footer />
                 </div>
               </div>
 

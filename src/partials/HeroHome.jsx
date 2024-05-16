@@ -22,9 +22,7 @@ function HeroHome() {
               Astuto helps you collect and organize feedback from your users, so you can focus on building what matters.
             </p>
             <div className="max-w-3xl mx-auto mt-8">
-              <div className="max-w-xs mx-auto sm:flex sm:justify-center">
-                <GetStartedButton />
-              </div>
+              <GetStartedButton footer />
             </div>
           </div>
 
