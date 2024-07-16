@@ -1,11 +1,11 @@
 import React from 'react';
 
-import FeatureFeedbackImage from '../images/feature-feedback-128.png';
 import FeatureRoadmapImage from '../images/feature-roadmap-128.png';
 import FeatureLoginImage from '../images/feature-login-128.png';
+import FeatureAnonymousImage from '../images/feature-anonymous-128.png';
+import FeatureModerationImage from '../images/feature-moderation-128.png';
 import FeatureAppearanceImage from '../images/feature-appearance-128.png';
 import FeatureI18NImage from '../images/feature-i18n-128.png';
-import FeatureNotifyImage from '../images/feature-notify-128.png';
 
 function FeaturesBlocks() {
   return (
@@ -26,45 +26,45 @@ function FeaturesBlocks() {
 
             {/* 1st item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded border shadow-lg" data-aos="zoom-y-out">
-              <img src={FeatureFeedbackImage} width={56} height={56} />
-              <h4 className="text-xl font-bold leading-snug tracking-tight mt-4 mb-1">Feedback</h4>
-              <p className="text-gray-600 text-center">Collect feedback. Organize feedback with custom boards and statuses.</p>
-            </div>
-
-            {/* 2nd item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded border shadow-lg" data-aos="zoom-y-out">
               <img src={FeatureRoadmapImage} width={56} height={56} />
               <h4 className="text-xl font-bold leading-snug tracking-tight mt-4 mb-1">Roadmap</h4>
               <p className="text-gray-600 text-center">Show your customers what you're working on.</p>
             </div>
 
-            {/* 3rd item */}
+            {/* 2nd item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded border shadow-lg" data-aos="zoom-y-out">
               <img src={FeatureLoginImage} width={56} height={56} />
               <h4 className="text-xl font-bold leading-snug tracking-tight mt-4 mb-1">Simple Sign In</h4>
               <p className="text-gray-600 text-center">Sign in with email or any custom OAuth provider (Google, Facebook, etc).</p>
             </div>
 
+            {/* 3rd item */}
+            <div className="relative flex flex-col items-center p-6 bg-white rounded border shadow-lg" data-aos="zoom-y-out">
+              <img src={FeatureAnonymousImage} width={56} height={56} />
+              <h4 className="text-xl font-bold leading-snug tracking-tight mt-4 mb-1">Anonymous Feedback</h4>
+              <p className="text-gray-600 text-center">Allow unregistered users to post feedback, removing login friction.</p>
+            </div>
+
             {/* 4th item */}
+            <div className="relative flex flex-col items-center p-6 bg-white rounded border shadow-lg" data-aos="zoom-y-out">
+              <img src={FeatureModerationImage} width={56} height={56} />
+
+              <h4 className="text-xl font-bold leading-snug tracking-tight mt-4 mb-1">Moderation</h4>
+              <p className="text-gray-600 text-center">Approve or reject received feedback before displaying it publicly.</p>
+            </div>
+
+            {/* 5th item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded border shadow-lg" data-aos="zoom-y-out">
               <img src={FeatureAppearanceImage} width={56} height={56} />
               <h4 className="text-xl font-bold leading-snug tracking-tight mt-4 mb-1">Brand</h4>
               <p className="text-gray-600 text-center">Represent your brand with complete customization of style and appearance.</p>
             </div>
 
-            {/* 5th item */}
+            {/* 6th item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded border shadow-lg" data-aos="zoom-y-out">
               <img src={FeatureI18NImage} width={56} height={56} />
               <h4 className="text-xl font-bold leading-snug tracking-tight mt-4 mb-1">Languages</h4>
-              <p className="text-gray-600 text-center">English, Spanish, French, German, Italian, Chinese and <a href="https://crowdin.com/project/astuto" target="_blank" className="underline">more</a>.</p>
-            </div>
-
-            {/* 6th item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded border shadow-lg" data-aos="zoom-y-out">
-              <img src={FeatureNotifyImage} width={56} height={56} />
-
-              <h4 className="text-xl font-bold leading-snug tracking-tight mt-4 mb-1">Notify</h4>
-              <p className="text-gray-600 text-center">Notify interested customers via email on updates.</p>
+              <p className="text-gray-600 text-center">English, Spanish, French, German, Italian, Chinese and <abbr title="Astuto also supports: Portoguese, Russian and Vietnamese" style={{cursor: 'help'}}>more</abbr>.</p>
             </div>
 
           </div>

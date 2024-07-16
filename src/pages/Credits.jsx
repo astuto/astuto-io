@@ -24,12 +24,12 @@ function Credits() {
                   <li><strong>Feedback icon</strong>: <a href="https://www.flaticon.com/free-icons/feedback" title="feedback icons">Feedback icons created by Freepik - Flaticon</a></li>
                   <li><strong>Magnifying glass icon</strong>: <a href="https://www.flaticon.com/free-icons/magnifying-glass" title="magnifying glass icons">Magnifying glass icons created by Freepik - Flaticon</a></li>
                   <li><strong>Share icon: </strong> <a href="https://www.flaticon.com/free-icons/instagram-share" title="instagram share icons">Instagram share icons created by Freepik - Flaticon</a></li>
-                  <li><strong>Feedback feature icon</strong>: <a href="https://www.flaticon.com/free-icons/testimonial" title="testimonial icons">Testimonial icons created by Freepik - Flaticon</a></li>
                   <li><strong>Roadmap feature icon</strong>: <a href="https://www.flaticon.com/free-icons/parrot" title="parrot icons">Parrot icons created by Freepik - Flaticon</a></li>
                   <li><strong>Login feature icon</strong>: <a href="https://www.flaticon.com/free-icons/login" title="login icons">Login icons created by Freepik - Flaticon</a></li>
+                  <li><strong>Anonymous icon</strong>: <a href="https://www.flaticon.com/free-icons/incognito" title="incognito icons">Incognito icons created by Freepik - Flaticon</a></li>
+                  <li><strong>Moderation feature icon</strong>: <a href="https://www.flaticon.com/free-icons/bad" title="bad icons">Bad icons created by Freepik - Flaticon</a></li>
                   <li><strong>Appearance feature icon</strong>: <a href="https://www.flaticon.com/free-icons/art-deco" title="art decó icons">Art decó icons created by Freepik - Flaticon</a></li>
                   <li><strong>Languages feature icon</strong>: <a href="https://www.flaticon.com/free-icons/linguistics" title="linguistics icons">Linguistics icons created by Freepik - Flaticon</a></li>
-                  <li><strong>Notify feature icon</strong>: <a href="https://www.flaticon.com/free-icons/megaphone" title="megaphone icons">Megaphone icons created by Freepik - Flaticon</a></li>
                   <li><strong>Error 404 icon</strong>: <a href="https://www.flaticon.com/free-icons/sad" title="sad icons">Sad icons created by Freepik - Flaticon</a></li>
                   <li><strong>Error 422 icon</strong>: <a href="https://www.flaticon.com/free-icons/rejection" title="rejection icons">Rejection icons created by Freepik - Flaticon</a></li>
                   <li><strong>Error 500 icon</strong>: <a href="https://www.flaticon.com/free-icons/broken-cable" title="broken cable icons">Broken cable icons created by Freepik - Flaticon</a></li>
