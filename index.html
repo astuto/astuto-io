@@ -20,6 +20,21 @@
   </head>
   <body class="font-inter antialiased bg-white text-gray-900 tracking-tight">
     <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <!-- Scroll to the provided hash on page load -->
+    <script>
+      function scrollToHash() {
+        const hash = window.location.hash;
+        if (hash) {
+          const element = document.querySelector(hash);
+          if (element) {
+            element.scrollIntoView({ behavior: "smooth" });
+          }
+        }
+      }
+
+      window.addEventListener('load', scrollToHash);
+    </script>
     
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
