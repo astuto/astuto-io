@@ -19,6 +19,18 @@ function Credits() {
             <div className="pt-32 pb-12 md:pt-40 md:pb-20">
               <div className="max-w-3xl mx-auto text-center">
                 <h1 className="h1 mb-4">Credits</h1>
+
+                <h3 className="h3 mt-8">Sponsors</h3>
+                <p className="mb-4">This project was made possible thanks to the support of the following sponsors and customers:</p>
+                <ul>
+                  <li><strong>Arjun Sundararajan</strong></li>
+                  <li><strong>Stéphane Magnenat</strong></li>
+                  <li><strong>Marco Graziosi</strong></li>
+                </ul>
+
+                <br />
+
+                <h3 className="h3 mt-8">Images</h3>
                 <ul>
                   <li><strong>Logo</strong>: <a href="https://www.flaticon.com/free-icons/fox" title="fox icons">Fox icons created by Freepik - Flaticon</a></li>
                   <li><strong>Feedback icon</strong>: <a href="https://www.flaticon.com/free-icons/feedback" title="feedback icons">Feedback icons created by Freepik - Flaticon</a></li>
