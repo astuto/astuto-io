@@ -11,7 +11,7 @@ function HeroHome() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
         {/* Hero content */}
-        <div className="pt-24 pb-12 md:pt-36 md:grid md:grid-cols-12 md:gap-16">
+        <div className="pt-36 pb-12 md:pt-36 md:grid md:grid-cols-12 md:gap-16">
 
           {/* Section header */}
           <div className="text-center pb-12 max-w-xl md:text-left md:max-w-none md:w-full mx-auto md:col-span-5 md:row-start-1 md:mt-6">
