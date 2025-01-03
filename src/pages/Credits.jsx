@@ -42,6 +42,9 @@ function Credits() {
                   <li><strong>Moderation feature icon</strong>: <a href="https://www.flaticon.com/free-icons/bad" title="bad icons">Bad icons created by Freepik - Flaticon</a></li>
                   <li><strong>Appearance feature icon</strong>: <a href="https://www.flaticon.com/free-icons/art-deco" title="art decó icons">Art decó icons created by Freepik - Flaticon</a></li>
                   <li><strong>Languages feature icon</strong>: <a href="https://www.flaticon.com/free-icons/linguistics" title="linguistics icons">Linguistics icons created by Freepik - Flaticon</a></li>
+                  <li><strong>Integrations feature icon</strong>: <a href="https://www.flaticon.com/free-icons/strategy" title="strategy icons">Strategy icons created by Freepik - Flaticon</a></li>
+                  <li><strong>API feature icon</strong>: <a href="https://www.flaticon.com/free-icons/api" title="api icons">Api icons created by Freepik - Flaticon</a></li>
+                  <li><strong>More feature icon</strong>: <a href="https://www.flaticon.com/free-icons/more" title="more icons">More icons created by Freepik - Flaticon</a></li>
                   <li><strong>Error 404 icon</strong>: <a href="https://www.flaticon.com/free-icons/sad" title="sad icons">Sad icons created by Freepik - Flaticon</a></li>
                   <li><strong>Error 422 icon</strong>: <a href="https://www.flaticon.com/free-icons/rejection" title="rejection icons">Rejection icons created by Freepik - Flaticon</a></li>
                   <li><strong>Error 500 icon</strong>: <a href="https://www.flaticon.com/free-icons/broken-cable" title="broken cable icons">Broken cable icons created by Freepik - Flaticon</a></li>
