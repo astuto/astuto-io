@@ -27,11 +27,11 @@ function Footer() {
                   Features
                 </HashLink>
               </li>
-              <li className="mb-2">
+              {/* <li className="mb-2">
                 <HashLink to="/#pricing" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
                   Pricing
                 </HashLink>
-              </li>
+              </li> */}
               <li className="mb-2">
                 <Link to={DOCS_URL} className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
                   Documentation
@@ -93,11 +93,11 @@ function Footer() {
                   Credits
                 </Link>
               </li>
-              <li className="mb-2">
+              {/* <li className="mb-2">
                 <Link to="mailto:info@astuto.io" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">
                   Contact us
                 </Link>
-              </li>
+              </li> */}
             </ul>
 
             <div className="mt-4 mb-2">

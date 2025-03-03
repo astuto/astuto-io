@@ -16,13 +16,13 @@ function HeroHome() {
           {/* Section header */}
           <div className="text-center pb-12 max-w-xl md:text-left md:max-w-none md:w-full mx-auto md:col-span-5 md:row-start-1 md:mt-6">
             <h1 className="text-3xl font-bold leading-tighter tracking-tighter mb-8 lg:text-4xl">
-              <span>Understand your customers and build a better product</span>
+              <span>The open source tool to understand your customers and build a better product</span>
             </h1>
             <p className="text-xl text-gray-600">
               Astuto helps you collect and organize feedback from your users, so you can focus on building what matters.
             </p>
             <div className="max-w-3xl mx-auto mt-8">
-              <GetStartedButton footer />
+              <GetStartedButton />
             </div>
           </div>
 
