@@ -87,7 +87,7 @@ function PrivacyPolicy() {
                 </p>
 
                 <p className="mb-4">
-                  You can, at any time, delete your user account through the 'My Settings' menu option. After deleting your account, all your personal information will be removed and the content you have published will be anonymized. You will no longer be able to access your account.
+                  You can, at any time, delete your user account through the 'Profile settings' menu option. In particular, the steps to delete your user account are the following: (1) click over your name or profile picture on the top-right, (2) click 'Profile settings', (3) find the 'Cancel account' button and click it. After deleting your account, all your personal information will be removed and the content you have published will be anonymized. You will no longer be able to access your account.
                 </p>
 
                 <p className="mb-4">
