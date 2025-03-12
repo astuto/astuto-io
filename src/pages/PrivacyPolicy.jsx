@@ -87,7 +87,11 @@ function PrivacyPolicy() {
                 </p>
 
                 <p className="mb-4">
-                  You can, at any time, delete your account through the 'My Settings' menu option. After deleting your account, all your personal information will be removed and the content you have published will be anonymized. You will no longer be able to access your account.
+                  You can, at any time, delete your user account through the 'My Settings' menu option. After deleting your account, all your personal information will be removed and the content you have published will be anonymized. You will no longer be able to access your account.
+                </p>
+
+                <p className="mb-4">
+                  If you own an Astuto feedback space, you can, at any time, write an email at <a href="mailto:info@astuto.io">info@astuto.io</a> requesting the deletion of the feedback space. You must write the email from the email address of the owner of the feedback space, so we can trust your request. After receiving your request and confirming you are actually the owner of the feedback space, we will proceed to delete all data of the feedback space (posts, comments, users, etc.) forever. Please note that you will no longer be able to access your feedback space and your data cannot be recovered.
                 </p>
 
                 <p className="mb-4">
